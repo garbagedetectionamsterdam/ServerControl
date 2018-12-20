@@ -52,7 +52,7 @@ item {
 			<ymax>297</ymax>
 		</bndbox>
 	</object> 	
-  <object>
+  	<object>
 		<name>LABEL NAME (not id) SPECIFIED IN LABEL_MAP.PBTXT</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
