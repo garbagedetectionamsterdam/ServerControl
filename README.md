@@ -72,6 +72,8 @@ Note the tag texts in bold. These are important and must be specified.
 the name of the object determines the tag it is assigned, the FILENAME.jpg specifies the image this xml annotates. Though the annotator links xmls and images by filename, the training script does not!!!
 
 ## Startup and server control scripts
+The simplest way to discover how the servers are started is by looking in the startup.sh script located in each server's ubuntu user's home folder (i.e. /home/ubuntu/startup.sh). These scripts invoke the following scripts (except retrain_if_new.py which should be loaded through a cron job, but is not yet):
+
 - /annotation/startup.sh - the startup script for the annotation server
 - /image_recognition/training_server/startup.sh - the startup script for the training server
 - /image_recognition/prediction_server/startup.sh - the startup script for the training server
